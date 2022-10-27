@@ -68,23 +68,25 @@ span{
     height: 50px;
     background-color: #3D37F1;
     margin-top: 132px;
-    
-}
-.Wave-text{
-    
     font-size: 22px;
     color: #FFFFFF;
-    padding-top: 22px;
-    padding-left: 22px;
+    padding-top: 15px;
+    
 }
 
-.fa-hands-clapping icon{
+.Wave-text::before{
+    display: flex;
+    justify-content: center;
+    content:fa-solid fa-hands-clapping;
     color: #FFFFFF;
-    font-size: 20px;
-
+   
+    
 }
 
 
+
+
+/*--right box*/
 .right-box
 {
 
@@ -110,7 +112,7 @@ span{
     justify-content: center;
     width: 777px;
     height: 200px;
-    margin-top: 87px;
+    margin-top: 150px;
 }
 .Our
 {
